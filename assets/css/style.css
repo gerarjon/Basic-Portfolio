@@ -33,6 +33,11 @@ a {
     text-decoration: none;
 }
 
+span {
+    height: 1em;
+    border-right: 1px solid #efefef;
+}
+
 #about-me-image {
     height: 200px;
     width: 200px;
@@ -67,10 +72,10 @@ a {
 .links-nav ul li {
     display: inline-block;
     list-style: none;
-    padding: 0 1rem;
 }
 
 .links-nav ul li a{
+    padding: 0 1rem;
     color: #777;
 }
 /* End of Navbar */
@@ -113,6 +118,7 @@ footer {
 }
 
 .footer-content {
-    color: #fff;
+    font-size: 0.8em;
+    color: #efefef;
 }
 /* End of Footer */
