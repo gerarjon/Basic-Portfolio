@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-#about-me-image {
-    height: 200px;
-    width: 200px;
-}
-
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 32px;
@@ -19,6 +14,7 @@ h1 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 1.7rem;
     font-weight: bold;
+    color: #4aaaa5;
 }
 
 header {
@@ -26,7 +22,20 @@ header {
     height: 90px;
     width: 100%;
     background-color: #FFF;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 3px solid #ccc;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about-me-image {
+    height: 200px;
+    width: 200px;
 }
 
 /* Start of Navbar component */
@@ -36,7 +45,7 @@ header {
 
 .navbar-container{
     margin: 0 auto;
-    width: 70%;
+    width: 960px;
     height: 90px;
 }
 
@@ -66,6 +75,44 @@ header {
 }
 /* End of Navbar */
 
-a {
-    text-decoration: none;
+
+/* Start of Main Content */
+.main-content {
+    margin: 40px auto;
+    padding: 30px;
+    padding-bottom: 50px;
+    min-height: calc(100vh - 250px);
+    width: 960px;
+    border: 1px solid #ccc;
+    background: #FFF;
 }
+
+.content-heading {
+    padding: 10px 0 30px 0;
+    border-bottom: 3px solid #ccc;
+}
+
+.content-section {
+    padding-top: 30px;
+}
+
+#about-me-image {
+    float: left;
+}
+
+/* End of Main Content */
+
+/* Start of Footer */
+footer {
+    margin: 0 auto;
+    height: 80px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 24px;
+    background: #666;
+    text-align: center;
+}
+
+.footer-content {
+    color: #fff;
+}
+/* End of Footer */
