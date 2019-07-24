@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+#about-me-image {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 32px;
+    font-size: 1rem;
+    background-image: url("../images/email-pattern.png");
+    color: #777;
+}
+
+h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+header {
+    margin: 0 auto;
+    height: 90px;
+    width: 100%;
+    background-color: #FFF;
+    border-bottom: 2px solid #ccc;
+}
+
+.name-nav h1 {
+    color: #fff;
+}
+
+.navbar-container{
+    margin: 0 auto;
+    width: 70%;
+    height: 90px;
+}
+
+.name-nav {
+    padding: 28px;
+    float: left;
+    background: #4aaaa5;
+    text-align: center;
+}
+.links-nav {
+    float: right;
+}
+
+.links-nav ul {
+    text-align: center;
+    padding: 29px;
+}
+
+.links-nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.links-nav ul li a{
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+}
