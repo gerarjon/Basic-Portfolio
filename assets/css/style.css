@@ -29,6 +29,7 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+/* Start of Navbar component */
 .name-nav h1 {
     color: #fff;
 }
@@ -63,6 +64,7 @@ header {
 .links-nav ul li a{
     color: #777;
 }
+/* End of Navbar */
 
 a {
     text-decoration: none;
