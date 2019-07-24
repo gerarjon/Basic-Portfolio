@@ -39,7 +39,6 @@ span {
 }
 
 #about-me-image {
-    height: 200px;
     width: 200px;
 }
 
@@ -74,9 +73,13 @@ span {
     list-style: none;
 }
 
-.links-nav ul li a{
+.links-nav ul li a {
     padding: 0 1rem;
     color: #777;
+}
+
+.links-nav ul li a:hover {
+    color: #4aaaa5;
 }
 /* End of Navbar */
 
