@@ -106,6 +106,15 @@ nav a {
     line-height: 18px;
 }
 
+nav a:hover {
+    color: #4aaaa5;
+}
+
+nav a:focus {
+    color: #4aaaa5;
+    outline: none;
+}
+
 nav a:first-child {
     border-left: 0 none;
 }
@@ -160,7 +169,11 @@ nav a:first-child {
 .work img {
     width: 100%;
     border: 0 none;
-    opacity: .8;
+    opacity: .7;
+}
+
+.work img:hover {
+    opacity: 1;
 }
 
 /* creates colored border over the images */
@@ -236,6 +249,10 @@ footer {
     width: 25px;
     height: 25px;
     margin: 0 15px;
+}
+
+footer a:focus {
+    outline: none;
 }
 
 /* Media Query */
