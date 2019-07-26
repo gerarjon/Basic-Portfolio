@@ -132,6 +132,8 @@ nav a:first-child {
     width: 100%;
     max-width: 960px;
     border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 }
 
 .section-container::after {
