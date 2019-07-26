@@ -94,7 +94,7 @@ h4 {
 
 nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 nav a {
@@ -150,13 +150,13 @@ nav a:first-child {
     float: left;
 }
 
+/* Portfolio */
+
 .gallery-photo {
     width: 250px;
     margin-right: 20px;
     float: left;
 }
-
-/* Portfolio */
 
 .work-container {
     text-align: center;
