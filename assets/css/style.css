@@ -57,6 +57,7 @@ h4 {
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -166,6 +167,10 @@ nav a:first-child {
     position: relative;
     float: left;
     margin: 20px 12px 25px 12px;
+}
+
+.work:hover {
+    transform: scale(1.05);
 }
 
 .work img {
