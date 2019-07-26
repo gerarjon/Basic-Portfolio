@@ -99,6 +99,7 @@ nav {
 
 nav a {
     color: #999;
+    font-size: 1.1em;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
@@ -223,18 +224,19 @@ textarea {
     height: 35px;
     border: 1px solid #ddd;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 textarea {
     height: 200px;
+    padding-top: 5px;
 }
 
 input[type=submit] {
     background: #4aaaa5;
     border: 0 none;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.2em;
     padding: 10px 30px;
     cursor: pointer;
 }
